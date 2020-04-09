@@ -27,4 +27,11 @@ class Event {
     setName() {
         this.name = eventName;
     }
+    getEvent() {
+        return this.location + " " + this.price;
+    }
+    setEvent() {
+        this.price = price;
+        this.location = location;
+    }
 }
